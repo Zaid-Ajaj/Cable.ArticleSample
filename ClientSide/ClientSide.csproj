@@ -54,7 +54,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Cable.Bridge, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cable.Bridge.1.0.0\lib\Cable.Bridge.dll</HintPath>
+      <HintPath>..\packages\Cable.Bridge.1.1.0\lib\Cable.Bridge.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
