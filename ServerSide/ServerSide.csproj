@@ -37,7 +37,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Cable.Nancy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cable.Nancy.1.1.0\lib\Cable.Nancy.dll</HintPath>
+      <HintPath>..\packages\Cable.Nancy.1.1.1\lib\Cable.Nancy.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Nancy, Version=1.4.4.0, Culture=neutral, processorArchitecture=MSIL">

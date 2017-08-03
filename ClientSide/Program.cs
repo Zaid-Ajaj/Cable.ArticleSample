@@ -21,6 +21,16 @@ namespace ClientSide
                 var age = DateTime.Now.Year - student.DateOfBirth.Year;
                 Console.WriteLine($"{name} is {age} years old");
             }
+
+
+            try
+            {
+                var result = await studentService.CatchMeIfYouCan();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }

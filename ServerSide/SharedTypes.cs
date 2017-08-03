@@ -16,5 +16,6 @@ namespace ServerSide
     {
         Task<IEnumerable<Student>> GetAllStudents();
         Task<Student> TryFindStudentByName(string name);
+        Task<bool> CatchMeIfYouCan();
     }
 }

@@ -29,5 +29,10 @@ namespace ServerSide
             var studentSearchResult = AllStudents().FirstOrDefault(student => student.Name == name);
             return Task.FromResult(studentSearchResult);
         }
+
+        public Task<bool> CatchMeIfYouCan()
+        {
+            throw new Exception("Will I get caught?");
+        }
     }
 }
